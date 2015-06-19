@@ -11,9 +11,9 @@
 ## ---> returns cached inverse of the matrix
 
 
-## Creates a list of functions ("special matrix") that can cache the inverse of a matrix
+## Creates a list of functions (i.e. "special matrix") that can cache the inverse of a matrix
 makeCacheMatrix <- function(x = matrix()) {
-  im<-NULL
+  im<-NULL            
   set <- function(y){
     x <<- y
     im <<- NULL
